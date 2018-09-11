@@ -9,9 +9,19 @@ public class Praktek {
         System.out.println("1, 1, 2, 3, 5, 8, 13, 21, ... dst.\n");        
     }
     
-     public static void main(String args){
+    public static int tampilInput(){
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Bilangan ke-: ");
+        int n = scanner.nextInt();
+        
+        return n;        
+    }
+        
+    public static void main(String args){
        String identitas = "Nabilla Fryda Israhani Nugraha / XR3 / 28";
        tampilJudul(identitas);
      
-     }
+       int n = tampilInput();
+    }
 }
