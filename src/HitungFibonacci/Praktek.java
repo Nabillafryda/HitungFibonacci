@@ -30,12 +30,12 @@ public class Praktek {
         }
         return hasil[n-1];        
     }   
-    
+          
     public static void main(String args){
        String identitas = "Nabilla Fryda Israhani Nugraha / XR3 / 28";
        tampilJudul(identitas);
      
        int n = tampilInput();
-       BigInteger hasil = fibo(n);
+       BigInteger hasil = fibo(n);       
     }
 }
