@@ -35,7 +35,7 @@ public class Praktek {
         System.out.println("Bilangan Fibonacci ke- " + n + " : " + hasil);
     }
           
-    public static void main(String args){
+    public static void main(String[] args){
        String identitas = "Nabilla Fryda Israhani Nugraha / XR3 / 28";
        tampilJudul(identitas);
      
